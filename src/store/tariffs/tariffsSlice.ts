@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { fetchTariffs } from './tariffsAction';
-import { Tariff } from '@/utils/types';
+import { Tariff } from '@/components/TariffsSection/TariffsSection.types';
 
 interface TariffsState {
   items: Tariff[];
